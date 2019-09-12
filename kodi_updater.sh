@@ -1,10 +1,10 @@
 #!/bin/bash
-#Developed By Next Level Interactive 2016
+
 options=("Update" "Fresh Install" "Quit" )
 update(){
    echo "Update process starting" ;
-   find /home/aussie/.kodi/ -type d -exec rm -R {} \;
-   wget https://www.dropbox.com/s/your/buildtemp.zip?dl=1
+   find /home/$USER/.kodi/ -type d -exec rm -R {} \;
+   wget https://www.ADDRESS.COM/s/your/buildtemp.zip?dl=1
   # mkdir .kodi
    mv BuildTemplate.zip?dl=1 BuildTemplate.zip
    unzip BuildTemplate.zip -d /home/$USER/.kodi/
