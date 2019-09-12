@@ -4,7 +4,7 @@ options=("Update" "Fresh Install" "Quit" )
 update(){
    echo "Update process starting" ;
    find /home/aussie/.kodi/ -type d -exec rm -R {} \;
-   wget https://www.dropbox.com/s/57dq5fbk7b0vqp5/BuildTemplate.zip?dl=1
+   wget https://www.dropbox.com/s/your/buildtemp.zip?dl=1
   # mkdir .kodi
    mv BuildTemplate.zip?dl=1 BuildTemplate.zip
    unzip BuildTemplate.zip -d /home/aussie/.kodi/
