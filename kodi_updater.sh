@@ -7,7 +7,7 @@ update(){
    wget https://www.dropbox.com/s/your/buildtemp.zip?dl=1
   # mkdir .kodi
    mv BuildTemplate.zip?dl=1 BuildTemplate.zip
-   unzip BuildTemplate.zip -d /home/aussie/.kodi/
+   unzip BuildTemplate.zip -d /home/$USER/.kodi/
 }
 echo "This Is The Linux Kodi Updater From Project Free Your Tv";
 if [ -d .kodi ]; then
