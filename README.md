@@ -21,6 +21,7 @@ A collection of simple Bash scripts.
 ## Programming
 
 1. [VersionCompare.sh](scripts/versioncompare.sh): compare two version number
+1. [ShellIde.sh](scripts/ShellIde.sh) programming helper script
 
 ## Utility
 
