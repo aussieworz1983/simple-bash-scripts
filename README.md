@@ -22,6 +22,7 @@ A collection of simple Bash scripts.
 
 1. [VersionCompare.sh](scripts/versioncompare.sh): compare two version number
 1. [ShellIde.sh](ShellIde.sh) programming helper script
+1. [sass-project-creator.sh] dev setup script for sass web development using visual studio code
 
 ## Utility
 
